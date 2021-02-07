@@ -18,10 +18,10 @@ with open('settings.json') as f:
 class SimpleBot:
     URL = "https://api.telegram.org/bot%s/%s"
     HELP_MESSAGE = """
-    Məni seçdiyiniz üçün təşəkkürlər. Hazırda var olan əmrlər:
-    /rand - təsadüfi bir rəqəm
-    /echo [mesajınız] - eyni mesajı cavablayın
-    /say [mesajınız] - eyni mesajı səsli olaraq cavablayın
+    Добро пожаловать в гости к боту, доступные команды:
+    /rand - получить случайное число
+    /echo [ваше сообщение] - ответить тем же сообщением
+    /say [ваше сообщение] - ответить тем же сообщением голосом
     """
     def __init__(self, token):
         self.token = token
